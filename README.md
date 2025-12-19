@@ -26,7 +26,7 @@
 - 초보자도 이해할 수 있도록 코드 전반에 상세한 주석 포함
 
 ## 실행 화면
-(URL : https://lovable.dev/projects/d861c718-9a3c-4b37-8225-1b5d00c1460f?magic_link=mc_9f199ca9-842d-47c6-8c94-178944196d19)
+(URL : https://myip.kr/mPHYg)
 
 <img width="1288" height="833" alt="image" src="https://github.com/user-attachments/assets/af596b88-5d4f-4579-b3b0-6081a8751fdb" />
 
