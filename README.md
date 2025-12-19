@@ -8,7 +8,7 @@
 ## 사용 기술
 - HTML
 - CSS
-- Java Script
+- JavaScript
 - React 컴포넌트
 - TypeScript
 
