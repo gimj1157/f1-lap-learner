@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
+# F1 레이싱 시뮬레이터를 통한 코드 교육
 
-## Project info
+## 프로그램의 목적
+- 본 프로그램은 레이싱 시뮬레이션이라는 흥미로운 소재를 활용하여 초보 학습자들이 반복문, 조건문, 난수, 정렬, 자료구조(리스트, 딕셔너리) 개념을 직관적으로 이해하고 실습할 수 있도록 설계된 교육용 Python 프로그램이다.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+- 특히 실제 F1 레이스의 핵심 요소인 날씨 변화, 피트스탑, 랩 타임 누적, 순위 경쟁을 단순화하여 구현함으로써 프로그래밍 학습의 몰입도와 이해도를 동시에 높이는 것을 목표로 한다.
 
-## How can I edit this code?
+## 사용 기술
+- Python
+- Python 표준 라이브러리 (random)
+- 외부 라이브러리나 추가 설치 없이 즉시 실행 가능하도록 구성함.
 
-There are several ways of editing your application.
+## 구현 내용
+- 드라이버 5명이 참가하는 F1 레이스 시뮬레이션 구현
+- 레이스 시작 시 날씨 시스템(맑음 / 비)을 난수로 결정
+- 비가 올 경우 모든 드라이버의 랩 타임 증가
+- 매 랩마다 피트스탑 이벤트를 확률적으로 발생시켜 변수 개념 학습
+- 각 랩 종료 후 드라이버별 랩 타임 계산
+- 누적 주행 시간 계산
+- 누적 시간 기준 임시 순위 정렬 및 출력
+- 레이스 종료 후 최종 순위 산정
+- F1 간이 포인트 시스템(25-18-15-12-10점) 적용
+- 🏁, 🏎️, 🌧️, 🛠️ 등의 이모지를 활용하여 실제 중계와 유사한 출력 구성
+- 초보자도 이해할 수 있도록 코드 전반에 상세한 주석 포함
 
-**Use Lovable**
+## 실행 화면
+<img width="1288" height="833" alt="image" src="https://github.com/user-attachments/assets/af596b88-5d4f-4579-b3b0-6081a8751fdb" />
+<img width="1287" height="856" alt="image" src="https://github.com/user-attachments/assets/6b51e934-57a3-4203-aa93-8ba3b5ff003a" />
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 느낀 점
+- 단순한 수치 계산이 아닌 상황 기반 시뮬레이션으로 구성함으로써 학습자가 코드 흐름을 자연스럽게 이해할 수 있음을 확인함.
+- 난수와 조건문이 결합될 경우 프로그램의 결과가 매번 달라지는 점이 학습자의 흥미와 참여도를 크게 높여준다는 것을 체감함.
+- 실제 스포츠 규칙(F1)을 교육 목적에 맞게 단순화하는 과정에서 현실성과 학습 난이도의 균형이 중요하다는 점을 배움.
+- 향후 그래픽 UI 또는 웹 기반 시뮬레이션으로 확장 가능성이 충분하다고 판단됨.
