@@ -25,10 +25,10 @@
 
 ## 실행 화면
 (URL : https://lovable.dev/projects/d861c718-9a3c-4b37-8225-1b5d00c1460f?magic_link=mc_9f199ca9-842d-47c6-8c94-178944196d19)
-
+<br>
 <img width="1288" height="833" alt="image" src="https://github.com/user-attachments/assets/af596b88-5d4f-4579-b3b0-6081a8751fdb" />
 (실행전)
-
+<br>
 <img width="1287" height="856" alt="image" src="https://github.com/user-attachments/assets/6b51e934-57a3-4203-aa93-8ba3b5ff003a" />
 (실행후)
 
