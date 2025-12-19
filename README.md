@@ -25,9 +25,12 @@
 
 ## 실행 화면
 (URL : https://lovable.dev/projects/d861c718-9a3c-4b37-8225-1b5d00c1460f?magic_link=mc_9f199ca9-842d-47c6-8c94-178944196d19)
-<img width="1288" height="833" alt="image" src="https://github.com/user-attachments/assets/af596b88-5d4f-4579-b3b0-6081a8751fdb" />
-<img width="1287" height="856" alt="image" src="https://github.com/user-attachments/assets/6b51e934-57a3-4203-aa93-8ba3b5ff003a" />
 
+<img width="1288" height="833" alt="image" src="https://github.com/user-attachments/assets/af596b88-5d4f-4579-b3b0-6081a8751fdb" />
+(실행전)
+
+<img width="1287" height="856" alt="image" src="https://github.com/user-attachments/assets/6b51e934-57a3-4203-aa93-8ba3b5ff003a" />
+(실행후)
 
 ## 느낀 점
 - 단순한 수치 계산이 아닌 상황 기반 시뮬레이션으로 구성함으로써 학습자가 코드 흐름을 자연스럽게 이해할 수 있음을 확인함.
